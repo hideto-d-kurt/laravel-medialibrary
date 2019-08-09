@@ -320,7 +320,6 @@ class Media extends Model implements Responsable, Htmlable
     public function move(HasMedia $model, $collectionName = 'default'): self
     {
         $newMedia = $this->copy($model, $collectionName);
-
         $this->delete();
 
         return $newMedia;
