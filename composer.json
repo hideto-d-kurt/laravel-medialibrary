@@ -1,5 +1,5 @@
 {
-  "name": "spatie/laravel-medialibrary",
+  "name": "hideto-d-kurt/laravel-medialibrary",
   "description": "Associate files with Eloquent models",
   "keywords": [
     "spatie",
@@ -11,7 +11,7 @@
     "cms",
     "laravel"
   ],
-  "homepage": "https://github.com/spatie/laravel-medialibrary",
+  "homepage": "https://github.com/hideto-d-kurt/laravel-medialibrary",
   "license": "MIT",
   "authors": [
     {
@@ -66,7 +66,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Spatie\\MediaLibrary\\MediaLibraryServiceProvider"
+        "Hideto-d-kurt\\MediaLibrary\\MediaLibraryServiceProvider"
       ]
     }
   },
